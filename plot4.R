@@ -13,7 +13,7 @@ Sys.setlocale("LC_TIME","English")
 
 #Create plot4
 #Creating frame
-par(mfrow = c(2, 2),mar=c(4,3,3,3), oma=c(1,1,1,1))
+par(mfrow = c(2, 2),mar=c(4,4,3,3), oma=c(1,1,1,1))
 #plot4.1
 plot(wdays,hpc$Global_active_power, cex.axis=0.7, cex.lab=0.7, type="l", xlab="", ylab="Global Active Power (kW)")
 #plot4.2
